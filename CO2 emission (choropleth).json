@@ -6,7 +6,7 @@
   "projection": {
     "type": "equirectangular",
     "scale": 390,
-    "translate": [1250, 460],
+    "translate": [1000, 460],
     "center": [160, -10]
   },
   "params": [
