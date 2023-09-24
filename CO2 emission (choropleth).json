@@ -5,8 +5,8 @@
   "height": 500,
   "projection": {
     "type": "equirectangular",
-    "scale": 300,
-    "translate": [700, 400],
+    "scale": 380,
+    "translate": [950, 450],
     "center": [160, -10]
   },
   "params": [
