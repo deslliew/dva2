@@ -1,10 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total CO2 Emissions (tonnes per Capita) in Asia (2017 - 2021)",
-  "width": "container",
-  "height": 400,
+  "width": 800,
+  "height": 500,
   "projection": {
-    "type": "equirectangular"
+    "type": "equirectangular",
+    "scale": 300,
+    "translate": [700, 400],
+    "center": [160, -10]
   },
   "params": [
     {
@@ -19,9 +22,10 @@
       }
     }
   ],
-  "layer": [{
+  "layer": [
+    {
       "data": {
-        "url": "https://raw.githubusercontent.com/deslliew/dv/main/asia.topojson",
+        "url": "https://raw.githubusercontent.com/deslliew/FIT3179/main/asia.topojson",
         "format": {"type": "topojson", "feature": "asia"}
       },
       "transform": [
@@ -37,6 +41,13 @@
         "strokeWidth": 1
       },
       "encoding": {"tooltip": {"field": "note"}}
+    },
+        {
+      "data": {
+        "url": "https://raw.githubusercontent.com/deslliew/FIT3179/main/test.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
     },
     {
       "data": {
