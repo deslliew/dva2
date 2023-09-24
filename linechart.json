@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/deslliew/dv/main/output_line.csv"
+  },
+  "title": "Median Carbon Emission in tonnes (per Capita) of Asia (2017-2021)",
+  "width": "container",
+  "height": 360,
+  "layer": [
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 30,
+        "y": 200,
+        "fill": "black",
+        "fontSize": 15,
+        "text": "The median carbon emission rates are gradually increasing over the years."
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 30,
+        "y": 220,
+        "fill": "black",
+        "fontSize": 15,
+        "text": "It decreased by 0.02 (per capita) from 2019 to 2020 due to pandemic."
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 30,
+        "y": 240,
+        "fill": "black",
+        "fontSize": 15,
+        "text": "It then increased by another 0.05 (per capita) from 2020 to 2021."
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 30,
+        "y": 260,
+        "fill": "black",
+        "fontSize": 15,
+        "text": "Its difference between the median crude suicide rates of 2017 and 2021 is 0.39 (per capita)."
+      }
+    },
+    {
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {"field": "Year", "type": "nominal"},
+        "y": {
+          "field": "Per Capita",
+          "type": "quantitative",
+          "scale": {"domain": [3, 4]},
+          "title": "Median Carbon Emission in tonnes (per Capita)"
+        },
+        "tooltip": [
+          {"field": "Year", "type": "nominal", "title": "Year"},
+          {
+            "field": "Per Capita",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Median Carbon Emission in tonnes (per Capita)"
+          }
+        ]
+      }
+    },
+    {
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 330}},
+        "y": {"field": "Per Capita", "type": "quantitative"},
+        "text": {"field": "Per Capita", "type": "quantitative", "format": ".2f"}
+      },
+      "mark": {"type": "text", "align": "center", "dx": 20, "dy": -5}
+    }
+  ],
+  "config": {}
+}
