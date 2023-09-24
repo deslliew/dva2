@@ -19,10 +19,9 @@
       }
     }
   ],
-  "layer": [
-
+  "layer": [{
       "data": {
-        "url": "https://raw.githubusercontent.com/deslliew/FIT3179/main/asia.topojson",
+        "url": "https://raw.githubusercontent.com/deslliew/dv/main/asia.topojson",
         "format": {"type": "topojson", "feature": "asia"}
       },
       "transform": [
