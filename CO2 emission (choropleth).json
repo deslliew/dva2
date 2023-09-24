@@ -1,13 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total CO2 Emissions (tonnes per Capita) in Asia (2017 - 2021)",
-  "width": 500,
-  "height": 300,
+  "width": "container",
+  "height": 400,
   "projection": {
     "type": "equirectangular",
-    "scale": 200,
-    "translate": [500, 270],
-    "center": [160, -10]
   },
   "params": [
     {
