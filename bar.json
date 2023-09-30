@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/deslliew/dva2/main/bar.csv"
+  },
+  "title": "Average Crude Suicide Rates (per 100k population) in Asia (2012 - 2014), Based on Gender",
+  "width": "container",
+  "height": 355,
+  "encoding": {
+    "y": {"field": "Year", "type": "nominal", "title": "Year"},
+    "x": {
+      "field": "CO2_Emission_Rate_Per_100k",
+      "type": "quantitative",
+      "axis": {"format": ".2f"},
+      "scale": {"domain": [0, 0.4]}
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "field": "Sector",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Construction and Building Materials Sector",
+              "Energy Sector",
+              "Transportation Sector",
+              "Construction and Building Materials Sector"
+            ],
+            "range": ["#aec7e8", "#dea5a4", "#a5a4de"]
+          },
+          "title": "Sector"
+        },
+        "tooltip": [
+          {"field": "Year", "type": "nominal", "title": "Year"},
+          {"field": "Sector", "type": "nominal", "title": "Sector"},
+          {
+            "field": "CO2_Emission_Rate_Per_100k",
+            "type": "quantitative",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "encoding": {
+        "y": {"field": "Year", "type": "nominal"},
+        "x": {"field": "CO2_Emission_Rate_Per_100k", "type": "quantitative"},
+        "text": {
+          "field": "CO2_Emission_Rate_Per_100k",
+          "type": "quantitative",
+          "format": ".2f"
+        }
+      },
+      "mark": {"type": "text", "align": "right", "dx": 15}
+    }
+  ],
+  "config": {}
+}
