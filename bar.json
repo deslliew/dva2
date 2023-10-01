@@ -54,7 +54,7 @@
           "format": ".2f"
         }
       },
-      "mark": {"type": "text", "align": "right", "dx": 6}
+      "mark": {"type": "text", "align": "right", "dx": 3}
     }
   ],
   "config": {}
