@@ -57,12 +57,5 @@
       "mark": {"type": "text", "align": "right", "dx": -3}
     }
   ],
-  "config": {"legend": {
-      "title": "Legend Title", // You can replace with a more descriptive title
-      "labelLimit": 0, // Display all labels
-      "labelMaxLength": 200, // Adjust label length as needed
-      "labelFontSize": 12, // Adjust font size as needed
-      "labelLimit": 0,
-      "titleLimit": 100
-    }}
+  "config": {}
 }
