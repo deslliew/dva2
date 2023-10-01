@@ -51,7 +51,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/deslliew/FIT3179/main/output_new_map.csv"
+        "url": "https://raw.githubusercontent.com/deslliew/dva2/main/output_new_map.csv"
       },
       "transform": [
         {
@@ -90,7 +90,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/deslliew/FIT3179/main/output_new_map.csv"
+        "url": "https://raw.githubusercontent.com/deslliew/dva2/main/output_new_map.csv"
       },
       "mark": {
         "type": "text",
@@ -107,7 +107,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'China' || datum['Country'] == 'Japan' || datum['Country'] == 'Indonesia'  || datum['Country'] == 'Kazakhstan'",
+            "test": "datum['Country'] == 'Saudi Arabia' || datum['Country'] == 'Mongolia' || datum['Country'] == 'Korea'  || datum['Country'] == 'Kazakhstan'",
             "value": 1
           },
           "value": 0
