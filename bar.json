@@ -53,7 +53,7 @@
           "format": ".2f"
         }
       },
-      "mark": {"type": "text", "align": "right", "dx": 15}
+      "mark": {"type": "text", "align": "right", "dx": -3}
     }
   ],
   "config": {}
