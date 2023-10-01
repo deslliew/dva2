@@ -55,3 +55,9 @@ body {
 .small-font {
     font-size: 14px;
 }
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
