@@ -22,8 +22,8 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "x": 450,
-        "y": 100,
+        "x": 650,
+        "y": 160,
         "fill": "black",
         "fontSize": 15,
         "text": "It decreased in 2020 due to pandemic."
@@ -33,8 +33,8 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "x": 470,
-        "y": 120,
+        "x": 650,
+        "y": 180,
         "fill": "black",
         "fontSize": 15,
         "text": "It then increased in 2021 after lockdown recovery."
