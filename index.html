@@ -21,7 +21,8 @@
 
 
 </head>
-<body>
+<body style="background-color: #ddd;">
+    <div style="background-color: white; width: 100%; padding: 0 20px;">
 <style> div {text-align: center;} </style>
 <style>
     ul {
@@ -36,7 +37,7 @@
    <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1 style = "background-color: #6297d3; padding: 50px; border: 2px solid black;"> Insights of Carbon Dioxide (CO2) Emissions in Asia<br>(2017 - 2021)</h1>
+        <h1 style = "background-color: #6297d3; padding: 50px; border: 2px solid black;"> Insights of Carbon Dioxide (CO2) Emissions in Asia (2017 - 2021)</h1>
       </div>
     </div>
   <!-- end pure grid group -->
@@ -45,13 +46,12 @@
      <div class="pure-g">
       <div class="pure-u-1-1">
         <h3 style = "background-color: #afe5fd; padding: 10px; border: 2px solid black;"> <br>High carbon emissions have significant consequences,
-          affecting both the environment and everyone within it. Therefore, it is imperative to closely examine these emissions for the betterment 
-          of our environment and the well-being of future generations. <br><b>In this webpage, we will be looking at different visualizations that
-          aim to provide insights on the CO2 Emissions in Asia from 2017 to 2021.</b> 
-          <br><br>The data used in this visualization is obtained from:
-          <br> https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emissions-by-country-2002-2022 and 
-          <br> https://population.un.org/wpp/Download/Standard/CSV/
-          <br><br> </h3>
+          affecting both the environment <br>and everyone within it. Therefore, it is imperative to closely<br>examine these emissions for the betterment 
+          of our environment<br> and the well-being of future generations. In this webpage, we<br >will be looking at different visualizations that
+          aim to <b>provide<br> insights on the CO2 Emissions in Asia from 2017 - 2021.</b> 
+          <br><br>Data Source:
+            <a href="https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emissions-by-country-2002-2022">Global Fossil CO2 Emissions by Country (2002-2022)</a>
+        <br><br> </h3>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -182,5 +182,6 @@ vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
   }).catch(console.error);;
 
 </script>
+</div>
 </body>
 </html>
