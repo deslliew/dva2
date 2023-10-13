@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/deslliew/dva2/main/bar(per%20capita).csv"
   },
-  "title": "Average CO2 Emission Rates (per capita) in Asia (2017 - 2021), Based on Sectors",
+  "title": "Average CO2 Emission Rates (tonnes per capita) in Asia (2017 - 2021), Based on Sectors",
   "width": "container",
   "height": 355,
   "encoding": {
