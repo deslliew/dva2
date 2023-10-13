@@ -15,40 +15,29 @@
         "y": 220,
         "fill": "black",
         "fontSize": 15,
-        "text": "The median carbon emission rates are gradually increasing over the years."
+        "text": "The rates gradually increases over the years."
       }
     },
     {
       "mark": {
         "type": "text",
         "align": "left",
-        "x": 30,
-        "y": 240,
+        "x": 200,
+        "y": 100,
         "fill": "black",
         "fontSize": 15,
-        "text": "It decreased by 0.02 (per capita) from 2019 to 2020 due to pandemic."
+        "text": "It decreased in 2020 due to pandemic."
       }
     },
     {
       "mark": {
         "type": "text",
         "align": "left",
-        "x": 30,
-        "y": 260,
+        "x": 200,
+        "y": 120,
         "fill": "black",
         "fontSize": 15,
-        "text": "It then increased by another 0.05 (per capita) from 2020 to 2021."
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "x": 30,
-        "y": 280,
-        "fill": "black",
-        "fontSize": 15,
-        "text": "Its difference between the median crude suicide rates of 2017 and 2021 is 0.39 (per capita)."
+        "text": "It then increased in 2021 after lockdown recovery."
       }
     },
     {
