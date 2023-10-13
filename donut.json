@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Carbon Emission (tonnes) in Asia (2017 - 2021), Based on Material Categories",
+  "title": "Carbon Emission (tonnes) in Asia (2017 - 2021), by Material Categories",
   "width": "container",
   "height": 390,
   "data": {
@@ -28,7 +28,7 @@
       "sort": "descending"
     },
     "color": {
-      "field": "Categories",
+      "field": "Materials",
       "type": "nominal",
       "scale": {
         "domain": ["Coal", "Oil", "Gas", "Cement", "Flaring", "Others"],
@@ -43,12 +43,12 @@
       }
     },
     "opacity": {
-      "condition": {"test": "datum['Categories'] == 'Others'", "value": 1},
+      "condition": {"test": "datum['Materials'] == 'Others'", "value": 1},
       "value": 0.5
     },
     "tooltip": [
       {"field": "Year", "type": "nominal"},
-      {"field": "Categories", "type": "nominal"},
+      {"field": "Materials", "type": "nominal"},
       {"field": "Percentage", "type": "quantitative", "format": ".2%"}
     ]
   },
@@ -127,10 +127,10 @@
       "params": [
         {
           "name": "hover",
-          "value": [{"Categories": "Others"}],
+          "value": [{"Materials": "Others"}],
           "select": {
             "type": "point",
-            "fields": ["Categories"],
+            "fields": ["Materials"],
             "on": "mouseover"
           }
         }
@@ -147,7 +147,7 @@
         "color": {
           "condition": {
             "param": "hover",
-            "field": "Categories",
+            "field": "Materials",
             "type": "nominal"
           },
           "value": "white"
