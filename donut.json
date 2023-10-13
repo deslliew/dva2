@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Carbon Emission (tonnes) in Asia (2017 - 2021), Based on Categories",
+  "title": "Carbon Emission (tonnes) in Asia (2017 - 2021), Based on Material Categories",
   "width": "container",
   "height": 390,
   "data": {
@@ -52,7 +52,50 @@
       {"field": "Percentage", "type": "quantitative", "format": ".2%"}
     ]
   },
-  "layer": [
+  "layer": [{
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 20,
+        "y": 40,
+        "fill": "black",
+        "fontSize": 14,
+        "text": "Coal has the highest CO2"
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 20,
+        "y": 60,
+        "fill": "black",
+        "fontSize": 14,
+        "text": "emission rate among the"
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 20,
+        "y": 80,
+        "fill": "black",
+        "fontSize": 14,
+        "text": "other material"
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "x": 20,
+        "y": 100,
+        "fill": "black",
+        "fontSize": 14,
+        "text": "categories."
+      }
+    },
     {
       "mark": {
         "type": "arc",
