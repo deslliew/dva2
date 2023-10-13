@@ -22,7 +22,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "x": 200,
+        "x": 450,
         "y": 100,
         "fill": "black",
         "fontSize": 15,
@@ -33,7 +33,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "x": 200,
+        "x": 470,
         "y": 120,
         "fill": "black",
         "fontSize": 15,
